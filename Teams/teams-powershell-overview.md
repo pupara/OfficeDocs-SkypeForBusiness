@@ -25,11 +25,10 @@ Microsoft Teams has a rich set of tools for IT admins to manage the product thro
 
 ## Which modules do you need to use?
 
-The PowerShell controls for managing Teams are in two different PowerShell modules: 
+The PowerShell controls for managing Teams are in PowerShell modules: 
 - [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/) : The Teams PowerShell module contains all the cmdlets you need to create and manage teams.  
-- [Skype for Business PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366): The Skype for Business PowerShell module contains the cmdlets to manage policies, configurations, and other Teams tools. 
 
-The reference documentation for the PowerShell controls will tell you which module contains the cmdlet you're investigating. (Eventually, the two modules will be combined.)
+The reference documentation for the PowerShell controls will tell you which module contains the cmdlet you're investigating.
 
 ## What can each admin role do?
 
@@ -76,11 +75,6 @@ When we released our generally available version of our PowerShell module, a few
 
 ## Managing policies via PowerShell
 
-Use the cmdlets in the [Skype for Business cmdlet module](https://www.microsoft.com/download/details.aspx?id=39366) to manage policies for individual users.
-
-> [!NOTE]
-> The cmdlets will be available in your PowerShell session once you connect to Skype for Business Online. For more information, please see [Manage Skype for Business Online with Microsoft 365 or Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
-
 A policy is a group of settings that can be applied granularly to individual users. Each policy type has its own set of cmdlets for creating, viewing, deleting, and updating the policies themselves, and then assigning those policies to users. The general structure is:
 
 - GET commands (for example, ``Get-CsTeamsMeetingPolicy``):  return the policy documents that are available for you to assign in your organization, both the policies created by Microsoft for you to use and the custom policies you've created.
@@ -107,8 +101,6 @@ Common parameters:
 <!--more info here?-->
 
 ## Managing configurations via PowerShell
-
-The cmdlets for managing your configuration are in the [Skype for Business cmdlet module](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Configurations are buckets of settings maintained in the service that cannot be specified at a user level. Settings always apply across the whole organization. Your global configuration is the only effective configuration in your organization. Each configuration type comes with two primary cmdlets:
 
