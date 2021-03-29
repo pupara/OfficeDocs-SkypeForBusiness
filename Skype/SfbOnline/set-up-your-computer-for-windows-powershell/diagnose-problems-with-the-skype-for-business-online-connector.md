@@ -110,7 +110,7 @@ There are typically three reasons why your connection attempt might fail with th
 
 
 > [!WARNING]
-> Live ID authentication has been deprecated for Skype For Business online Connector. Please use Team PowerShell Module to manage online tenant. When managing hybrid environments, please upgrade to latest cummulative update or use oAuth authentication. 
+> Live ID authentication has been deprecated for Skype For Business online Connector. Please use Team PowerShell Module to manage online tenant. When managing hybrid environments, please upgrade to latest cummulative update or use oAuth authentication.
 
 One of the prerequisites for using PowerShell to manage Skype for Business Online is to install the Microsoft Online Services Sign-in Assistant. If the Sign-in Assistant is not installed, you will receive the following error message when you try to establish a remote session with Skype for Business Online:
 
