@@ -87,7 +87,6 @@ See [Download and install Windows PowerShell](https://docs.microsoft.com/SkypeFo
 > [!WARNING]
 > Live ID authentication has been deprecated for Skype For Business online Connector. Please use Team PowerShell Module to manage online tenant. When managing hybrid environments, please upgrade to latest cummulative update or use oAuth authentication.
 
-
 There are typically three reasons why your connection attempt might fail with the following error message:
 
   - **Error**: *Get-CsWebTicket : Failed to connect live id servers. Make sure proxy is enabled or machine has network connection to live id servers.*
